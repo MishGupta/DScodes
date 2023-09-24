@@ -1,4 +1,9 @@
 //searching
+struct node
+{
+    int data;
+    struct node *next;
+};
         void search(){
 	struct node* temp;
 	int num;
